@@ -1,0 +1,10 @@
+package com.bankapp.exception.DAO_exceptions;
+
+public class WithdrawException extends RuntimeException{
+    public WithdrawException(String message) {
+        super(message);
+    }
+    public WithdrawException (String message, Throwable cause) {
+        super(message, cause);
+    }
+}
